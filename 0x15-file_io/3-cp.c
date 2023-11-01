@@ -20,7 +20,7 @@ char *creates_buffer(char *file)
 	if (buffer == NULL)
 	{
 		dprintf(STDERR_FILENO,
-			"Error: Can't write to %s\n", file);
+			"Error: Can't write to , file);
 		exit(99);
 	}
 
